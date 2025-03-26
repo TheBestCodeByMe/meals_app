@@ -6,9 +6,9 @@ import 'package:meals_app/models/meal.dart';
 
 class MealItem extends StatelessWidget {
   const MealItem({
-    super.key,
-    required this.meal,
-    required this.onSelectMeal,
+  super.key,
+  required this.meal,
+  required this.onSelectMeal,
   });
 
   final Meal meal;
@@ -53,7 +53,7 @@ class MealItem extends StatelessWidget {
               child: Container(
                 color: Colors.black54,
                 padding:
-                    const EdgeInsets.symmetric(vertical: 6, horizontal: 44),
+                const EdgeInsets.symmetric(vertical: 6, horizontal: 44),
                 child: Column(
                   children: [
                     Text(
